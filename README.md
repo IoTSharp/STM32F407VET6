@@ -1,8 +1,8 @@
-# STM32F4DISCOVERY 开发板 BSP 说明
+# STM32F407VET6  开发板 BSP 说明
 
 ## 简介
 
-本文档为 RT-Thread 开发团队为 STM32F4DISCOVERY 开发板提供的 BSP (板级支持包) 说明。
+本文档为 RT-Thread 开发团队为 STM32F407VET6 开发板提供的 BSP (板级支持包) 说明。
 
 主要内容如下：
 
@@ -22,7 +22,7 @@ STM32F4DISCOVERY 是 ST 推出的一款基于 ARM Cortex-M4 内核的开发板�
 
 该开发板常用 **板载资源** 如下：
 
-- MCU：STM32F407VGT6，主频 168MHz，1024KB FLASH ，192KB RAM
+- MCU：STM32F407VET6，主频 168MHz，512KB FLASH ，128KB RAM
 - 常用外设
   - LED：4个用户 LEDs， LD3（orange，PD13），LD4(green，PD12)，LD5 (red,PD14) and LD6 (blue，PD15)。
   - 按键，2个，Reset 和 User。
@@ -103,4 +103,4 @@ msh >
 
 维护人:
 
-- [misonyo](https://github.com/misonyo) 
+- [maikebing](https://github.com/maikebing) 
