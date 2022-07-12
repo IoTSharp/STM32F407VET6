@@ -2,7 +2,7 @@
 
 ## 简介
 
-本文档为 RT-Thread 开发团队为 STM32F407VET6 开发板提供的 BSP (板级支持包) 说明。
+这是通过STM32F4DISCOVERY STM32F407VGTx修改成为   STM32F407VETx 开发板提供的 BSP (板级支持包) 说明。
 
 主要内容如下：
 
