@@ -1,0 +1,26 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: RT-Thread CI Action
+      # You may pin to the exact commit or the version.
+      # uses: maikebing/rt-thread_linux_env@d197764bf352f91fedd450eee71cd7992f9c79a0
+      uses: maikebing/rt-thread_linux_env@v1
+      with:
+        # scons -target=?
+        TARGET: mdk5
+        # cppcheck  options
+        CPPCHECK: --enable=all --std=c99 applications/
+    
+
